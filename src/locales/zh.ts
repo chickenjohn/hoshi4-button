@@ -1,5 +1,5 @@
 export default {
-    title: '豹按钮 (:3っ)∋', // 网页标题
+    title: '✧*｡肆按钮✧*｡', // 网页标题
     langName: '简体中文',
     appBar: {
         SwitchLanguage: '切换语言',
@@ -23,12 +23,15 @@ export default {
     },
     tags: { // tag 的翻译
         Other: '其他',
-        Tone: '豹叫',
-        Rbq: '乳豹器',
-        Peach: '吃桃',
-        Belly: '摸肚皮',
-        Death: '作死',
-        ShakeM: '抖M',
+        Gachi: '肆肆养gachi',
+        Cute: '肆可爱',
+        Hello: '肆问好',
+        Hiccup: '肆打嗝',
+        Little: '小小肆',
+        Mimic: '肆模仿',
+        Sneeze: '肆喷嚏',
+        Strange: '肆奇怪的话',
+        WeirdNoise: '肆怪声',
     },
     ProjectAddress: '项目地址',
     BackToTop: '返回顶部',

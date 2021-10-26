@@ -176,7 +176,7 @@ function useAudioPlay({
         audio.onerror = (e) => {
             console.error(e)
             // 音频资源加载优化，若 CDN 加载失败则从本地加载
-            // audio.src = localVoicesPath
+            audio.src = 'voices/' + path.value
         }
     }
 
@@ -293,7 +293,7 @@ export default defineComponent({
     left: 0px;
     box-sizing: border-box;
     height: 36px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(185, 83, 115, 0.288);
     border-top-left-radius: 28px;
     border-bottom-left-radius: 28px;
     cursor: pointer;

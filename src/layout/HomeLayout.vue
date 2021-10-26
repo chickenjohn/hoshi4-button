@@ -141,8 +141,6 @@ import vuetify from '@/plugins/vuetify'
 import { computed, defineComponent, onUnmounted } from '@vue/composition-api'
 import { useOnScroll } from 'vue-composable'
 import { safeOpenUrl } from '@/utils/helper'
-import wxImg from '@/assets/wx.png'
-import zfbImg from '@/assets/zfb.jpg'
 
 /**
  * 切换语言
@@ -173,11 +171,6 @@ const menuList = computed(() => [
         },
     },
     {
-        icon: 'iconfont icon-changelog-clock',
-        name: i18n.t('menu.Changelog'),
-        path: '/changelog',
-    },
-    {
         icon: 'code',
         name: i18n.t('menu.About'),
         path: '/about',
@@ -185,7 +178,7 @@ const menuList = computed(() => [
     {
         icon: 'mdi-download',
         name: i18n.t('menu.Download'),
-        url: `${NODE_ENV === 'production' ? CDN_PATH : ''}${BASE_URL}voices.zip`,
+        url: `${BASE_URL}voices.zip`,
         fun() {
             safeOpenUrl(this.url)
         },
@@ -218,8 +211,6 @@ export default defineComponent({
             langList,
             menuList,
             backTop,
-            wxImg,
-            zfbImg,
             scrollTop,
             ENABLE_QR_CODE,
         }

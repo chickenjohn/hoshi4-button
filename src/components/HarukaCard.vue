@@ -57,6 +57,6 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 .haruka-card {
-    box-shadow: 1px 5px 22px rgb(255, 174, 166, 0.6) !important;
+    box-shadow: 1px 5px 22px rgba(215, 129, 255, 0.6) !important;
 }
 </style>

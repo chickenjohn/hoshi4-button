@@ -10,7 +10,7 @@ export const RSS_BASE_URL = env.VUE_APP_RSS_BASE_URL || ''
 
 export const BILI_UID = env.VUE_APP_BILI_UID || ''
 
-export const PRIMARY_COLOR = env.VUE_APP_PRIMARY_COLOR || '#fff'
+export const PRIMARY_COLOR = env.VUE_APP_PRIMARY_COLOR || '#000'
 
 export const AUTHOR = env.VUE_APP_AUTHOR || ''
 

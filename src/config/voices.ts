@@ -27,256 +27,643 @@ export interface VoiceInfo {
 const voices: VoiceInfo[] = [
     {
         messages: {
-            zh: '阿巴阿巴阿巴阿巴阿巴阿巴阿巴',
-            en: 'aba aba aba aba aba aba aba aba',
-            ja: 'アルバアバアバアバアバアバアバア',
-        },
-        path: '阿巴阿巴阿巴阿巴阿巴阿巴阿巴.mp3',
-        tag: 'Tone',
-    },
-    {
-        messages: {
-            zh: '阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴(超长)',
-            en: 'aba aba aba aba aba aba aba aba aba aba aba (long)',
-            ja: 'アルバアバアバアバアバアバアバアアルバアバアバア(超長)',
-        },
-        path: '阿巴阿巴阿巴阿巴阿巴阿巴(超长).mp3',
-        tag: 'Tone',
-    },
-
-    {
-        messages: {
-            zh: '防空警豹',
+            zh: 'moyada',
             en: '',
         },
-        path: '防空警豹.mp3',
-        tag: 'Tone',
+        path: 'Cute-moyada.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '豹叫',
+            zh: 'rua',
             en: '',
         },
-        path: '豹叫.mp3',
-        tag: 'Tone',
+        path: 'Cute-rua.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '豹式呼吸',
+            zh: '不会唱啦',
             en: '',
         },
-        path: '豹式呼吸.mp3',
-        tag: 'Tone',
+        path: 'Cute-不会唱啦.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '我是个锤子gamer',
+            zh: '不告诉你',
             en: '',
         },
-        path: '我是个锤子gamer.mp3',
-        tag: 'Tone',
+        path: 'Cute-不告诉你.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '芜湖，起飞',
-            en: 'Wuhu, take off',
-        },
-        path: '芜湖，起飞.mp3',
-        tag: 'Tone',
-    },
-    {
-        messages: {
-            zh: '再说我平胸我就从这里跳下去',
-        },
-        path: '再说我平胸我就从这里跳下去.mp3',
-        tag: 'Rbq',
-    },
-    {
-        messages: {
-            zh: '贫乳是属性，是稀有价值哒！',
-        },
-        path: '贫乳是稀有价值！贫乳是宝藏.mp3',
-        tag: 'Rbq',
-    },
-    {
-        messages: {
-            zh: '那我总不能说我是真的傻吧',
-        },
-        path: '那我总不能说我是真的傻吧.mp3',
-        tag: 'Rbq',
-    },
-    {
-        messages: {
-            zh: '好，我就是傻子！',
-        },
-        path: '好，我就是傻子.mp3',
-        tag: 'Rbq',
-    },
-    {
-        messages: {
-            zh: '我是无情的乳豹器',
-        },
-        path: '我是无情的rbq.mp3',
-        tag: 'Rbq',
-    },
-    {
-        messages: {
-            zh: '八嘎 hentai 无路赛',
-            en: '',
-            ja: 'バカ 変態 うるさい',
-        },
-        path: '八嘎hentai无路赛.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '八嘎 hentai 无路赛2',
-            en: '',
-            ja: 'バカ 変態 うるさい2',
-        },
-        path: '八嘎hentai无路赛2.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '泥萌这些变态大哥哥好kimo，M兮兮的',
-            en: '',
-            ja: '',
-        },
-        path: '泥萌这些变态大哥哥好kimo.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '变态！一群变态！',
-            en: '',
-            ja: '',
-        },
-        path: '变态！一群变态！.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '就是，盯着小女孩的腿看什么啊，变态！',
-        },
-        path: '就是，盯着小女孩的腿看什么啊，变态！.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '还要看人家女孩子的裤子，变态！',
-        },
-        path: '还要看人家女孩子的裤子，变态.mp3',
-        tag: 'ShakeM',
-    },
-    {
-        messages: {
-            zh: '我爱你(日语)',
-            en: 'I love you (Japanese)',
-            ja: '爱してる(日本語)',
-        },
-        path: '阿姨洗铁路.mp3',
-        tag: 'Peach',
-    },
-    {
-        messages: {
-            zh: '我爱你(英文)',
-            en: 'I love you(English)',
-            ja: '爱してる(英語)',
-        },
-        path: 'I love you.mp3',
-        tag: 'Peach',
-    },
-    {
-        messages: {
-            zh: '我爱你(中文)',
-            en: 'I love you (Chinese)',
-            ja: '爱してる(中国語)',
-        },
-        path: '我爱你.mp3',
-        tag: 'Peach',
-    },
-    {
-        messages: {
-            zh: '不可以摸肚皮',
+            zh: '不需要',
             en: '',
         },
-        path: '不可以摸肚皮.mp3',
-        tag: 'Belly',
+        path: 'Cute-不需要.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '只准摸一下哦！',
+            zh: '你不知道的事',
             en: '',
         },
-        path: '只准摸一下哦！.mp3',
-        tag: 'Belly',
+        path: 'Cute-你不知道的事.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '我一个巴掌呼死你',
+            zh: '你这么说我也不会开心',
             en: '',
         },
-        path: '我一个巴掌呼死你.mp3',
-        tag: 'Death',
+        path: 'Cute-你这么说我也不会开心.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '这个板子就跟晓音姐的胸一样还是滑的',
+            zh: '充满抛瓦',
             en: '',
         },
-        path: '这个板子就跟晓音姐的胸一样，还是滑的.mp3',
-        tag: 'Death',
+        path: 'Cute-充满抛瓦.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '我就是喜欢看你这副嫉妒我的表情',
+            zh: '好呀',
             en: '',
         },
-        path: '我就是喜欢看你这副嫉妒我的表情.mp3',
-        tag: 'Death',
+        path: 'Cute-好呀.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '然后我就可以为所欲为，哎嘿，为所欲为',
+            zh: '委屈屈',
+            en: '',
         },
-        path: '然后我就可以为所欲为.mp3',
-        tag: 'Death',
+        path: 'Cute-委屈屈.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '直播中被妈妈闯进房间gank怒关电源',
+            zh: '害羞',
+            en: '',
         },
-        path: '直播中被妈妈闯进房间gank怒关电源.mp3',
-        tag: 'Death',
+        path: 'Cute-害羞.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '放假了没人管得住我了',
+            zh: '怎么哑掉了',
+            en: '',
         },
-        path: '放假了没人管得住我了.mp3',
-        tag: 'Death',
+        path: 'Cute-怎么哑掉了.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '妈妈问我什么时候吃饭，说再不出来就现在冲进房间里把我电脑砸了',
+            zh: '我表',
+            en: '',
         },
-        path: '妈妈问我什么时候吃饭.mp3',
-        tag: 'Death',
+        path: 'Cute-我表.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '妈妈听我解释',
+            zh: '戳泡泡',
+            en: '',
         },
-        path: '妈妈听我解释.mp3',
-        tag: 'Death',
+        path: 'Cute-戳泡泡.mp3',
+        tag: 'Cute',
     },
     {
         messages: {
-            zh: '完了，妈妈说我再不出来就要死了。对不起，大家晚安，对不起！',
+            zh: '拍肚皮',
+            en: '',
         },
-        path: '完了，妈妈说我再不出来就要死了.mp3',
-        tag: 'Death',
+        path: 'Cute-拍肚皮.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '烦肆了',
+            en: '',
+        },
+        path: 'Cute-烦肆了.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '爱听不听',
+            en: '',
+        },
+        path: 'Cute-爱听不听.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '疑惑肆肆',
+            en: '',
+        },
+        path: 'Cute-疑惑肆肆.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '肚肚叫惹',
+            en: '',
+        },
+        path: 'Cute-肚肚叫惹.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '脖子抽筋',
+            en: '',
+        },
+        path: 'Cute-脖子抽筋.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '萌萌q',
+            en: '',
+        },
+        path: 'Cute-萌萌q.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '诶我才不信呢',
+            en: '',
+        },
+        path: 'Cute-诶我才不信呢.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '还钱！',
+            en: '',
+        },
+        path: 'Cute-还钱！.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: '酒醉的蝴蝶结',
+            en: '',
+        },
+        path: 'Cute-酒醉的蝴蝶结.mp3',
+        tag: 'Cute',
+    },
+    {
+        messages: {
+            zh: 'mua',
+            en: '',
+        },
+        path: 'Gachi-mua.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '书法暴论',
+            en: '',
+        },
+        path: 'Gachi-书法暴论.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '你们热了就开心',
+            en: '',
+        },
+        path: 'Gachi-你们热了就开心.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '叫宝贝',
+            en: '',
+        },
+        path: 'Gachi-叫宝贝.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '因为有你们',
+            en: '',
+        },
+        path: 'Gachi-因为有你们.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '感谢sc',
+            en: '',
+        },
+        path: 'Gachi-感谢sc.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '我开动了哈姆',
+            en: '',
+        },
+        path: 'Gachi-我开动了哈姆.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '最喜欢',
+            en: '',
+        },
+        path: 'Gachi-最喜欢.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '有点任性',
+            en: '',
+        },
+        path: 'Gachi-有点任性.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '这是什么',
+            en: '',
+        },
+        path: 'Gachi-这是什么.mp3',
+        tag: 'Gachi',
+    },
+    {
+        messages: {
+            zh: '下午好',
+            en: '',
+        },
+        path: 'Hello-下午好.mp3',
+        tag: 'Hello',
+    },
+    {
+        messages: {
+            zh: '做个好梦',
+            en: '',
+        },
+        path: 'Hello-做个好梦.mp3',
+        tag: 'Hello',
+    },
+    {
+        messages: {
+            zh: '大家晚上豪',
+            en: '',
+        },
+        path: 'Hello-大家晚上豪.mp3',
+        tag: 'Hello',
+    },
+    {
+        messages: {
+            zh: '睡着了吗',
+            en: '',
+        },
+        path: 'Hello-睡着了吗.mp3',
+        tag: 'Hello',
+    },
+    {
+        messages: {
+            zh: '吃饱了',
+            en: '',
+        },
+        path: 'Hiccup-吃饱了.mp3',
+        tag: 'Hiccup',
+    },
+    {
+        messages: {
+            zh: '喵',
+            en: '',
+        },
+        path: 'Hiccup-喵.mp3',
+        tag: 'Hiccup',
+    },
+    {
+        messages: {
+            zh: '奇怪的嗝',
+            en: '',
+        },
+        path: 'Hiccup-奇怪的嗝.mp3',
+        tag: 'Hiccup',
+    },
+    {
+        messages: {
+            zh: '打嗝',
+            en: '',
+        },
+        path: 'Hiccup-打嗝.mp3',
+        tag: 'Hiccup',
+    },
+    {
+        messages: {
+            zh: '大耳朵',
+            en: '',
+        },
+        path: 'Little-大耳朵.mp3',
+        tag: 'Little',
+    },
+    {
+        messages: {
+            zh: '小鲤鱼',
+            en: '',
+        },
+        path: 'Little-小鲤鱼.mp3',
+        tag: 'Little',
+    },
+    {
+        messages: {
+            zh: '黑猫警长',
+            en: '',
+        },
+        path: 'Little-黑猫警长.mp3',
+        tag: 'Little',
+    },
+    {
+        messages: {
+            zh: 'daisukigogogo',
+            en: '',
+        },
+        path: 'Mimic-daisukigogogo.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '卡祖笛',
+            en: '',
+        },
+        path: 'Mimic-卡祖笛.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '咩',
+            en: '',
+        },
+        path: 'Mimic-咩.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '咩咩唱打上花火',
+            en: '',
+        },
+        path: 'Mimic-咩咩唱打上花火.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '咩啊咩啊',
+            en: '',
+        },
+        path: 'Mimic-咩啊咩啊.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '喵喵',
+            en: '',
+        },
+        path: 'Mimic-喵喵.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '弱气喵喵',
+            en: '',
+        },
+        path: 'Mimic-弱气喵喵.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '象拔蚌合辑',
+            en: '',
+        },
+        path: 'Mimic-拔蚌合辑.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '机车',
+            en: '',
+        },
+        path: 'Mimic-机车.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '火箭',
+            en: '',
+        },
+        path: 'Mimic-火箭.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '疑问喵喵',
+            en: '',
+        },
+        path: 'Mimic-疑问喵喵.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '阿里嘎多咩啊',
+            en: '',
+        },
+        path: 'Mimic-阿里嘎多咩啊.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '鸡叫',
+            en: '',
+        },
+        path: 'Mimic-鸡叫.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '麻烦喵（真的很麻烦）',
+            en: '',
+        },
+        path: 'Mimic-麻烦喵（真的很麻烦）.mp3',
+        tag: 'Mimic',
+    },
+    {
+        messages: {
+            zh: '二次元',
+            en: '',
+        },
+        path: 'Sneeze-二次元.mp3',
+        tag: 'Sneeze',
+    },
+    {
+        messages: {
+            zh: '啊啾噜噜',
+            en: '',
+        },
+        path: 'Sneeze-啊啾噜噜.mp3',
+        tag: 'Sneeze',
+    },
+    {
+        messages: {
+            zh: '茶艺',
+            en: '',
+        },
+        path: 'Sneeze-茶艺.mp3',
+        tag: 'Sneeze',
+    },
+    {
+        messages: {
+            zh: '什么变态我喜欢',
+            en: '',
+        },
+        path: 'Strange-什么变态我喜欢.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '你不是狗吗',
+            en: '',
+        },
+        path: 'Strange-你不是狗吗.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '你们只是在汪汪叫',
+            en: '',
+        },
+        path: 'Strange-你们只是在汪汪叫.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '你太快了',
+            en: '',
+        },
+        path: 'Strange-你太快了.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '你的脸红得像苹果',
+            en: '',
+        },
+        path: 'Strange-你的脸红得像苹果.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '啥b喵娘',
+            en: '',
+        },
+        path: 'Strange-啥b喵娘.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '嘿嘿你也来las啊',
+            en: '',
+        },
+        path: 'Strange-嘿嘿你也来las啊.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '在耍流氓',
+            en: '',
+        },
+        path: 'Strange-在耍流氓.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '没朋友',
+            en: '',
+        },
+        path: 'Strange-没朋友.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '火西肆锐评舰长',
+            en: '',
+        },
+        path: 'Strange-火西肆锐评舰长.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '笨蛋没充钱啦',
+            en: '',
+        },
+        path: 'Strange-笨蛋没充钱啦.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: '骗舰',
+            en: '',
+        },
+        path: 'Strange-骗舰.mp3',
+        tag: 'Strange',
+    },
+    {
+        messages: {
+            zh: 'yueyueyueyue',
+            en: '',
+        },
+        path: 'WeirdNoise-yueyueyueyue.mp3',
+        tag: 'WeirdNoise',
+    },
+    {
+        messages: {
+            zh: '哔吧哔啵boom',
+            en: '',
+        },
+        path: 'WeirdNoise-哔吧哔啵boom.mp3',
+        tag: 'WeirdNoise',
+    },
+    {
+        messages: {
+            zh: '哼哼唧唧',
+            en: '',
+        },
+        path: 'WeirdNoise-哼哼唧唧.mp3',
+        tag: 'WeirdNoise',
+    },
+    {
+        messages: {
+            zh: '歪比巴卜',
+            en: '',
+        },
+        path: 'WeirdNoise-歪比巴卜.mp3',
+        tag: 'WeirdNoise',
+    },
+    {
+        messages: {
+            zh: '略略略',
+            en: '',
+        },
+        path: 'WeirdNoise-略略略.mp3',
+        tag: 'WeirdNoise',
+    },
+    {
+        messages: {
+            zh: '长弹舌',
+            en: '',
+        },
+        path: 'WeirdNoise-长弹舌.mp3',
+        tag: 'WeirdNoise',
     },
 ]
 export default voices

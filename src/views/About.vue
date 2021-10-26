@@ -47,7 +47,7 @@
                             </h3>
                         </div>
                     </v-card-text>
-                    <v-card-text>
+                    <!-- <v-card-text>
                         <h2>友情链接</h2>
                         <br>
                         <div v-for="item in friendshipLinks" :key="item.url">
@@ -56,7 +56,7 @@
                                 <a :href="item.url" target="_blank">{{ item.url }}</a>
                             </h3>
                         </div>
-                    </v-card-text>
+                    </v-card-text> -->
                     <v-btn color="primary" @click="$router.push('/')">
                         返回首页
                     </v-btn>
