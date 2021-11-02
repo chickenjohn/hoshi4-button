@@ -27,7 +27,7 @@
                             开发并提供技术支持
                         </h3>
                     </v-card-text>
-                    <v-card-text>
+                    <!-- <v-card-text>
                         <h2>使用技术</h2>
                         <br>
                         <div v-for="item in useList" :key="item.url">
@@ -36,7 +36,7 @@
                                 <a :href="item.url" target="_blank">{{ item.url }}</a>
                             </h3>
                         </div>
-                    </v-card-text>
+                    </v-card-text> -->
                     <v-card-text>
                         <h2>参考项目</h2>
                         <br>
@@ -142,12 +142,8 @@ export default defineComponent({
             ],
             referList: [
                 {
-                    msg: 'Peko按钮',
-                    url: 'https://github.com/voosc/new-pekobutton',
-                },
-                {
-                    msg: '狐按钮(^・ω・^§)ﾉ',
-                    url: 'https://github.com/lonelyion/fubuki-button',
+                    msg: '豹按钮',
+                    url: 'https://github.com/CaoMeiYouRen/shirakami-haruka-button',
                 },
             ],
             friendshipLinks,

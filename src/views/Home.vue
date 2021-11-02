@@ -34,7 +34,7 @@
                                 实现的项目。<br>
                                 <b>使用指南</b>：点击按钮即可播放对应音声；多次点击可以造成相当鬼畜的效果；开启洗脑循环将会一直播放一个音频；
                                 同时开启循环播放和洗脑循环将会出现 地 狱 绘 卷。<br>
-                                <b>声明</b>：本项目仅为 DD 作品，和火西肆（Hoshi4）个人没有关联<br>
+                                <b>声明</b>：本项目仅为 DD 作品，和<SafeLink target="_blank" href="https://space.bilibili.com/1401928/">火西肆（Hoshi4）</SafeLink>个人没有关联<br>
 
                                 <template v-if="ENABLE_NOTICE">
                                     <v-alert
